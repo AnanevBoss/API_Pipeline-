@@ -19,22 +19,21 @@ namespace API_BoombaMarket.Controllers
         {
             _context = context;
         }
-        [HttpGet ("SignIn/{login}/{password}")]
+        [HttpGet("SignIn/{login}/{password}")]
         public async Task<IActionResult> SignIn(string login, string password)
         {
-            if (ModelState.IsValid)
+            if (!string.IsNullOrEmpty(login) && !string.IsNullOrEmpty(password))
             {
                 User user = await _context.Users.FirstOrDefaultAsync(u => u.Login == login && u.Password == password);
                 if (user != null)
                 {
-                  return Ok(user);
-
+                    return Ok(user);
                 }
-                ModelState.AddModelError("", "Некорректные логин и(или) пароль");
+                return NotFound("Пользователь не найден");
             }
-            return Ok();
-
+            return BadRequest("Некорректные логин и(или) пароль");
         }
+
 
 
 
