@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_BoombaMarket", "API_BoombaMarket\API_BoombaMarket.csproj", "{359BE9B2-960F-43E7-8C68-97ADEFF3A65C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{359BE9B2-960F-43E7-8C68-97ADEFF3A65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359BE9B2-960F-43E7-8C68-97ADEFF3A65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359BE9B2-960F-43E7-8C68-97ADEFF3A65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359BE9B2-960F-43E7-8C68-97ADEFF3A65C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {639D936A-9F96-42EA-B17A-17D038280C6E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿name: Syntax Check
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  syntax-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0.x' 
+
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    - name: Install NuGet package
+      run: dotnet add API_BoombaMarket/API_BoombaMarket.csproj package Microsoft.CodeAnalysis.NetAnalyzers --version 8.0.0
+
+    - name: Run StyleCop Analyzers
+      run: dotnet build API_BoombaMarket/API_BoombaMarket.csproj /p:WarningLevel=6 /p:DebugType=None /p:DebugSymbols=false /p:Platform="Any CPU" /p:TreatWarningsAsErrors=true /p:RunAnalyzersDuringBuild=true
