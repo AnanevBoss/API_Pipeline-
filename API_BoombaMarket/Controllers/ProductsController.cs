@@ -143,9 +143,46 @@ namespace API_BoombaMarket.Controllers
             if (_context.Products == null)
             {
                 return NotFound();
+
+
+
+
+
+
+
+
             }
             return await _context.Products.Include(a => a.Category).ToListAsync();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         [HttpGet("GetData{id}")]
