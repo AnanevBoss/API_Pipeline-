@@ -24,7 +24,7 @@ namespace API_BoombaMarket.Controllers
         {
             if (!string.IsNullOrEmpty(login) && !string.IsNullOrEmpty(password))
             {
-                User user = await _context.Users.FirstOrDefaultAsync(u => u.Login == login && u.Password == password);
+                User? user = await _context.Users.FirstOrDefaultAsync(u => u.Login == login && u.Password == password);
                 if (user != null)
                 {
                     return Ok(user);
