@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h8AAt28t8QIroYTRiYmkTcTngeTtpyYrc3jYNO5U4QONIR85ZmVHiX53gYgsuOcRvXMWX2IftwgVOwsoCFWtcw==",
+  "dgSpecHash": "6J3wekPz9QiTK35cXdQMTVLNrtVcLzM0OBBSAfxR0qIor5Cj3AgDMpj/qIx2kwI59BnuXHUJJMnqvl/s3K1Zdw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PCUSER\\source\\repos\\API_BoombaMarket\\API_BoombaMarket\\API_BoombaMarket.csproj",
   "expectedPackageFiles": [
@@ -142,6 +142,7 @@
     "C:\\Users\\PCUSER\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\PCUSER\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\PCUSER\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\PCUSER\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\PCUSER\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\PCUSER\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\PCUSER\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
