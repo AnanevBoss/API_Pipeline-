@@ -24,10 +24,10 @@ namespace API_BoombaMarket.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Feedback>>> GetFeedbacks()
         {
-          if (_context.Feedbacks == null)
-          {
-              return NotFound();
-          }
+            if (_context.Feedbacks == null)
+            {
+                return NotFound();
+            }
             return await _context.Feedbacks.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace API_BoombaMarket.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Feedback>> GetFeedback(int? id)
         {
-          if (_context.Feedbacks == null)
-          {
-              return NotFound();
-          }
+            if (_context.Feedbacks == null)
+            {
+                return NotFound();
+            }
             var feedback = await _context.Feedbacks.FindAsync(id);
 
             if (feedback == null)
@@ -85,10 +85,10 @@ namespace API_BoombaMarket.Controllers
         [HttpPost]
         public async Task<ActionResult<Feedback>> PostFeedback(Feedback feedback)
         {
-          if (_context.Feedbacks == null)
-          {
-              return Problem("Entity set 'MarketplaceDBContext.Feedbacks'  is null.");
-          }
+            if (_context.Feedbacks == null)
+            {
+                return Problem("Entity set 'MarketplaceDBContext.Feedbacks'  is null.");
+            }
             _context.Feedbacks.Add(feedback);
             await _context.SaveChangesAsync();
 
