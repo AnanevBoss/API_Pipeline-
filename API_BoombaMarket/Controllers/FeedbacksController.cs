@@ -115,7 +115,6 @@ namespace API_BoombaMarket.Controllers
             return NoContent();
         }
 
-
         private bool FeedbackExists(int? id)
         {
             return (_context.Feedbacks?.Any(e => e.IdFeedback == id)).GetValueOrDefault();

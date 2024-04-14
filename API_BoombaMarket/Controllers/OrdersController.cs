@@ -24,10 +24,10 @@ namespace API_BoombaMarket.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
-          if (_context.Orders == null)
-          {
-              return NotFound();
-          }
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
             return await _context.Orders.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace API_BoombaMarket.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Order>> GetOrder(int? id)
         {
-          if (_context.Orders == null)
-          {
-              return NotFound();
-          }
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
             var order = await _context.Orders.FindAsync(id);
 
             if (order == null)
@@ -85,17 +85,15 @@ namespace API_BoombaMarket.Controllers
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
-          if (_context.Orders == null)
-          {
-              return Problem("Entity set 'MarketplaceDBContext.Orders'  is null.");
-          }
+            if (_context.Orders == null)
+            {
+                return Problem("Entity set 'MarketplaceDBContext.Orders'  is null.");
+            }
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetOrder", new { id = order.IdOrder }, order);
         }
-
-
 
         // DELETE: api/Orders/5
         [HttpDelete("{id}")]
@@ -116,8 +114,6 @@ namespace API_BoombaMarket.Controllers
 
             return NoContent();
         }
-
-
 
         private bool OrderExists(int? id)
         {

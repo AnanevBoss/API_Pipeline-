@@ -24,10 +24,10 @@ namespace API_BoombaMarket.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<OrderItem>>> GetOrderItems()
         {
-          if (_context.OrderItems == null)
-          {
-              return NotFound();
-          }
+            if (_context.OrderItems == null)
+            {
+                return NotFound();
+            }
             return await _context.OrderItems.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace API_BoombaMarket.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<OrderItem>> GetOrderItem(int? id)
         {
-          if (_context.OrderItems == null)
-          {
-              return NotFound();
-          }
+            if (_context.OrderItems == null)
+            {
+                return NotFound();
+            }
             var orderItem = await _context.OrderItems.FindAsync(id);
 
             if (orderItem == null)
@@ -85,10 +85,10 @@ namespace API_BoombaMarket.Controllers
         [HttpPost]
         public async Task<ActionResult<OrderItem>> PostOrderItem(OrderItem orderItem)
         {
-          if (_context.OrderItems == null)
-          {
-              return Problem("Entity set 'MarketplaceDBContext.OrderItems'  is null.");
-          }
+            if (_context.OrderItems == null)
+            {
+                return Problem("Entity set 'MarketplaceDBContext.OrderItems'  is null.");
+            }
             _context.OrderItems.Add(orderItem);
             await _context.SaveChangesAsync();
 
