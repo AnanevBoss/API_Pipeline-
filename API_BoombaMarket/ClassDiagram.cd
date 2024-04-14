@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="API_BoombaMarket.Controllers.CategoriesController">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAIABAEAAAAAAAAAAQAAgAAAAAAAAAgAEAA=</HashCode>
+      <FileName>Controllers\CategoriesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.FeedbacksController">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAACAAAAAIAABAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Controllers\FeedbacksController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.OrderItemsController">
+    <Position X="10.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAABAAAAAAgAACCAAAAAAABAAAQAAAAAAA=</HashCode>
+      <FileName>Controllers\OrderItemsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.OrdersController">
+    <Position X="12" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACQQAAAAABAAAAAAAAAAAAAAAAAIAAEAAAAAAAAA=</HashCode>
+      <FileName>Controllers\OrdersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.OrderShopsController">
+    <Position X="13.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAABAAAACAAAAAAAAAAACBAAAAAAABAAAA=</HashCode>
+      <FileName>Controllers\OrderShopsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.PhotoProductsController">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCEAAgEAABAAAAAAAAQAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PhotoProductsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.ProductsController">
+    <Position X="12" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAECAABAAAAAAAAAgAAAAAABAAQAAACAAAAIA=</HashCode>
+      <FileName>Controllers\ProductsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.ProfilesController">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAABAAAAAAAAAAQAAAAAwAAAAAAIgIAAAA=</HashCode>
+      <FileName>Controllers\ProfilesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.RolesController">
+    <Position X="1.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEQAAAABAAAAAAAwAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Controllers\RolesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.ShopsController">
+    <Position X="13.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACCAAABAAgAAAEAAAAAAAAAAABAAAAAAAAAAg=</HashCode>
+      <FileName>Controllers\ShopsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.StatusController">
+    <Position X="8.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEAAABAAAAAAAAAAEAAAAAAAAABAAAIAAABA=</HashCode>
+      <FileName>Controllers\StatusController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Controllers.UsersController">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAACAAQAABQAEAAAAAAAAAAAAAAAAMAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.Category">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.Feedback">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAgAACAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Feedback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.Order">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAAAQAAAAAAAAAAgAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.OrderItem">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.OrderShop">
+    <Position X="12" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OrderShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.PhotoProduct">
+    <Position X="1.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PhotoProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.Product">
+    <Position X="10.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAQAgAgAAABAAAAwAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.Profile">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAAAAAAAAAQAwAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.Role">
+    <Position X="3.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Models\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.Shop">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAwAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Models\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.Status">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Status.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_BoombaMarket.Models.User">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIACCAAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
